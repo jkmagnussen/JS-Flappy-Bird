@@ -1,5 +1,5 @@
 JKMagnussen
-Flappy Bird
+Flappy Bird Game
 Vanilla JavaScript.
 
 # Original-Flappy-bird-JavaScript
