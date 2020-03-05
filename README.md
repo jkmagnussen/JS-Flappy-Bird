@@ -1,6 +1,6 @@
 JKMagnussen
 Flappy Bird Game
-Vanilla JavaScript.
+Actioned through Vanilla JavaScript.
 
 # Original-Flappy-bird-JavaScript
 
