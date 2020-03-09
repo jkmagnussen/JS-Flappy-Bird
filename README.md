@@ -13,5 +13,3 @@ There is no variation or evolution in gameplay throughout the game, as the pipes
 And today you're going to create the Flappy Bird game using JavaScript and HTML (or HTML5 canvas).
 
 This is a beginner's guide on how to create the flappy bird game using JavaScript and HTML.
-
-To follow the tutorial step by step, please download the starter template, and then follow this link:
