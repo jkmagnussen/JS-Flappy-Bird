@@ -2,6 +2,13 @@
 const cvs = document.getElementById("bird");
 const ctx = cvs.getContext("2d");
 
+function resizeCanvas() {
+  setTimeout(function() {
+    cvs.style.height = window.innerHeight + "px";
+  }, 0);
+}
+resizeCanvas();
+
 //GAME VARS & CONSTS
 let frames = 0;
 const DEGREE = Math.PI / 180;
@@ -24,7 +31,7 @@ const SWOOSHING = new Audio();
 SWOOSHING.src = "audio/sfx_swooshing.wav";
 
 const DIE = new Audio();
-DIE.src = "audio/sfx_die.wav";
+DIE.src = "audio/comeOnMan.wav";
 
 //GAME STATE
 const state = {
@@ -59,17 +66,11 @@ cvs.addEventListener("click", function(event) {
       let clickY = event.clientY - rect.top;
 
       //CHECK IF WE CLICK
-      if (
-        clickX >= startBtn.x &&
-        clickX <= startBtn.x + startBtn.w &&
-        clickY >= startBtn.y &&
-        clickY <= startBtn.y + startBtn.h
-      ) {
-        pipes.reset();
-        bird.speedReset();
-        score.reset();
-        state.current = state.getReady;
-      }
+      state.current = state.getReady;
+      pipes.reset();
+      bird.speedReset();
+      score.reset();
+      state.current = state.getReady;
       break;
   }
 });
@@ -421,7 +422,7 @@ const score = {
 
 // DRAW
 function draw() {
-  ctx.fillStyle = "#70c5ce";
+  ctx.fillStyle = "#74D2E0";
   ctx.fillRect(0, 0, cvs.clientWidth, cvs.height);
 
   bg.draw();
