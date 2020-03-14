@@ -2,6 +2,8 @@ JKMagnussen
 Flappy Bird Game
 Actioned through Vanilla JavaScript.
 
+Live location: https://jkmagnussen.com/jsflappybird/
+
 # Original-Flappy-bird-JavaScript
 
 Create Original Flappy Bird With JavaScript
