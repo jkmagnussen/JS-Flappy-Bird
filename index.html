@@ -14,10 +14,42 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        display: inline;
+      }
+      img {
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px;
+        width: 58px;
+        height: 58px;
+      }
+      a {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <canvas id="bird" width="320" height="480"> </canvas>
     <script src="game.js"></script>
   </body>
+  <footer>
+    <div>
+      <a href="https://jkmagnussen.com/">
+        <img className="home" src="./home.png" alt="home" />
+      </a>
+      <a href="https://github.com/jkmagnussen/JS-Flappy-Bird">
+        <img className="github" src="./github.png" alt="github" />
+      </a>
+      <a href="https://linkedin.com/in/joseph-magnussen/">
+        <img className="linkedIn" src="./linkedIn.png" alt="linkedIn" />
+      </a>
+    </div>
+  </footer>
 </html>
