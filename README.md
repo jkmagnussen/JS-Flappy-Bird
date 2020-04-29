@@ -2,7 +2,7 @@ JKMagnussen
 Flappy Bird JS Game
 Actioned through Vanilla JavaScript.
 
-Location: https://jkmagnussen.com/jsflappybird/
+Location: https://jkmagnussen.com/jsflappybird
 
 # Original-Flappy-bird-JavaScript.
 
