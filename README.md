@@ -1,7 +1,6 @@
 Creatot: JKMagnussen,
 Title: Flappy Bird JS Game,
-ActionedThrough: VanillaJavaScript.
-
+ActionedThrough: VanillaJavaScript,
 Location: https://jkmagnussen.com/jsflappybird
 
 # Original-Flappy-bird-JavaScript.
